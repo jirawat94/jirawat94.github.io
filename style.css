@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Avenir Next LT Pro', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.mmenu {
+    display: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 64px;
+}
+
+#logo {
+    margin-left: 24px;
+    height: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+#logo img {
+    height: 36px;
+    margin-top: 5px;
+
+
+}
+
+#logo h1 {
+    display: inline-block;
+    color: #4a4a4a;
+
+}
+
+#logo span {
+    color: #9b9b9b
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu h1 {
+    margin: auto 16px auto 0;
+}
+
+#menu h1:last-child {
+    margin: auto 24px auto 0px;
+}
+
+#banner-container {
+
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+    background-color: #d7d7d7;
+}
+
+#banner-container img {
+    width: 60%;
+}
+
+#banner-container #banner-text {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+#banner-container #banner-text h1 {
+    margin-top: 24px;
+    color: #4a4a4a;
+    font-weight: 900;
+}
+
+#banner-container #banner-text p {
+    color: #4a4a4a;
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+#banner-container #banner-text button {
+    color: white;
+    background-color: #4a4a4a;
+    border: unset;
+    padding: 8px 0px;
+    margin-top: 24px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+#hilight {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+#hilight img {
+    width: 100%;
+}
+
+#hilight h1 {
+    color: #4a4a4a;
+    margin: 32px 0 24px 0;
+    font-weight: bold;
+}
+
+#hilight p {
+    color: #4a4a4a;
+    margin-bottom: 24px;
+    line-height: 20px;
+}
+
+#hilight footer {
+    color: #4a4a4a;
+    margin-bottom: 32px;
+    font-weight: 300;
+}
+
+.story {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    border: #cecccc 1px solid;
+}
+
+.story:first-child {
+    margin-top: 32px;
+}
+
+.story:last-child {
+    margin-bottom: 32px;
+    background-color: #d3d3d3;
+}
+
+.story img {
+    width: 35%;
+    margin: 16px;
+}
+
+.story-detail {
+    margin: auto 0;
+}
+
+.story-detail h1 {
+    color: #4a4a4a;
+}
+
+.story-detail p {
+    color: #4a4a4a;
+    margin: 8px 0;
+}
+
+.story a {
+    text-decoration: none;
+    color: rgb(109, 118, 240);
+}
+
+.pic-mobile {
+    display: none;
+}
+
+#Start-learning {
+    background-color: #9b9b9b3d;
+    padding: 32px 72px;
+}
+
+#Start-learning h1 {
+    text-align: center;
+    color: #4a4a4a;
+    font-size: 50px;
+    margin-bottom: 32px;
+}
+
+#couse {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

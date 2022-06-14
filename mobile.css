@@ -1,0 +1,103 @@
+@media screen and (max-width: 768px) {
+
+
+    nav #menu {
+        display: none;
+    }
+
+    .mmenu {
+        display: block;
+        margin: 18px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #banner-container {
+        font-size: 24px;
+    }
+
+    #banner-container img {
+        width: 100%;
+    }
+
+    #banner-container {
+        padding: 0px 0px 32px;
+        flex-direction: column;
+    }
+
+    #banner-container #banner-text {
+        max-width: unset;
+        margin-left: 0px;
+        padding: 32px 16px 0px;
+    }
+
+    #banner-container #banner-text h1 {
+        margin-top: 0px;
+    }
+
+    #banner-container #banner-text button {
+        background-color: #9a9a9a;
+        font-size: 24px;
+    }
+
+    #hilight {
+        display: none;
+    }
+
+    .pic-pc {
+        display: none;
+    }
+
+    .pic-mobile {
+        display: block;
+    }
+
+    #side {
+        margin: 0;
+    }
+
+    .story {
+        flex-direction: column;
+        border: none;
+    }
+
+    .story:first-child {
+        margin-top: 0px;
+    }
+
+    .story img {
+        width: 100%;
+        padding: 16px 16px 32px 16px;
+        margin: 0px;
+    }
+
+    .story-detail {
+        margin: 0 0 32px 0;
+    }
+
+    .story-detail h1 {
+        color: #4a4a4a;
+        padding-left: 32px;
+    }
+
+    .story-detail p {
+        color: #4a4a4a;
+        margin: 8px 0;
+        padding-left: 32px;
+    }
+
+    .story a {
+
+        text-decoration: none;
+        color: rgb(109, 118, 240);
+        padding-left: 32px;
+    }
+
+    .story:last-child {
+        margin-bottom: 32px;
+        background-color: white;
+    }
+
+}
