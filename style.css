@@ -18,6 +18,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     height: 64px;
+
 }
 
 #logo {
@@ -25,7 +26,6 @@ nav {
     height: 32px;
     margin-top: 16px;
     margin-bottom: 16px;
-
 }
 
 #logo img {
@@ -191,4 +191,43 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+#row1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.couse-menu {
+    max-width: 30%;
+    background-color: white;
+
+    margin: 0 32px 32px 0;
+    padding: 0 0 10px 0;
+}
+
+.couse-menu h2 {
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #4a4a4a;
+}
+
+.couse-menu p {
+    margin: 8px 0px 8px 16px;
+}
+
+.couse-menu img {
+    width: 100%;
+}
+
+.couse-menu:last-child {
+    margin-right: 0px;
+}
+
+#row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
