@@ -100,4 +100,61 @@
         background-color: white;
     }
 
+    #Start-learning {
+        display: none;
+    }
+
+    #couse-mobile {
+        display: block;
+    }
+
+    #couse-mobile h1 {
+        text-align: center;
+    }
+
+    .couse-mobile-menu {
+        width: 90%;
+        margin: 8px auto;
+        color: #4a4a4a;
+        background-color: #cecece91;
+        padding: 16px 0 24px 16px;
+    }
+
+    .couse-mobile-menu:first-child {
+        margin: 16px auto 8px auto;
+    }
+
+    .couse-mobile-menu:last-child {
+        margin: 8px auto 32px auto;
+    }
+
+    #thesis-right {
+        display: none;
+    }
+
+    #thesis-left {
+        width: 100%;
+        padding: 16px 0px 24px 0;
+    }
+
+    #thesis-left h2 {
+        display: none;
+    }
+
+    #thesis-left p {
+        display: none;
+
+    }
+
+    hr {
+        display: none;
+    }
+
+    #endcardit2 {
+        display: none;
+    }
+
+    #endcardit {
+        margin-top: 40px 0px 16px 0px;
+    }
 }

@@ -231,3 +231,51 @@ nav {
     flex-direction: row;
     justify-content: space-around;
 }
+
+#couse-mobile {
+    display: none;
+}
+
+#thesis h1 {
+    text-align: center;
+    margin: 32px 0px 0px 0px;
+    color: #4a4a4a;
+}
+
+#thesis-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#thesis-left video {
+    width: 100%;
+
+}
+
+#thesis-left {
+    width: 60%;
+    padding: 32px 24px 24px 24px;
+}
+
+#thesis-left h2 {
+    margin: 24px 0px 8px 0px;
+    color: #4a4a4a;
+}
+
+#thesis-left p {
+    color: #4a4a4a;
+}
+
+hr {
+    margin-bottom: 16px;
+}
+
+#endcardit {
+
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 10px 16px 24px;
+}
